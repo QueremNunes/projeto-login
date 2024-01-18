@@ -86,7 +86,9 @@ div.campo > input {
   border: 0px;
   border-radius: 8px;
   padding: 4px;
-  transform: translateY(-12px); /*fazer sempre na ultima linha do seletor*/
+  transform: translateY(
+    -12.5px
+  ); /*fazer sempre na ultima linha do seletor para não ocasionar bugs*/
 }
 
 div.campo > input:focus-within {
